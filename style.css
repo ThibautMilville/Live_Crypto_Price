@@ -21,6 +21,7 @@ body {
   height: 100px;
   border-radius: 8px;
   background: #202022;
+  font-family: 'Mukta', sans-serif;
 }
 
 .coin .coin-logo {
@@ -35,12 +36,12 @@ body {
   height: 70%;
 }
 
+/* COIN INFOS */
 .coin .coin-name {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-family: 'Mukta', sans-serif;
 }
 
 .coin .coin-name h3 {
@@ -54,4 +55,26 @@ body {
   font-size: 14px;
   font-weight: 500;
   margin: 6px 0 0 2px;
+}
+
+.coin .coin-price {
+  display: grid;
+  align-items: center;
+  margin-left: auto;
+  text-align: right;
+  padding: 8px 22px 0 0;
+}
+
+.coin .coin-price .price {
+  color: #30ff20;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: -6px;
+}
+
+.coin .coin-price .change {
+  color: #aaa;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -30px;
 }
