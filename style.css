@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #161616;
+}
+
+/* CONTAINER */
+.coin {
+  display: flex;
+  width: 460px;
+  height: 100px;
+  border-radius: 8px;
+  background: #202022;
+}
+
+.coin .coin-logo {
+  width: 100px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.coin .coin-logo img {
+  width: 70%;
+  height: 70%;
+}
+
+.coin .coin-name {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Mukta', sans-serif;
+}
+
+.coin .coin-name h3 {
+  color: #fff;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.coin .coin-name span {
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 6px 0 0 2px;
+}
